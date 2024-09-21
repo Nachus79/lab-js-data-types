@@ -12,9 +12,9 @@ const s5 = "and";
 
 // Print out the concatenated string
 
-const sTotal = `${s1} ${s2} ${s3} ${s4} ${s5} ${s1} ${s2} ${s3} ${s4}`;
+const tongueTwister = `${s1} ${s2} ${s3} ${s4} ${s5} ${s1} ${s2} ${s3} ${s4}`;
 
-console.log (sTotal);
+console.log (tongueTwister);
 
 /*******************************************
     Iteration 1.2 | Camel Tail
@@ -46,7 +46,7 @@ const billTotal = 84;
 
 // Calculate the tip (15% of the bill total)
 
-const tipAmount = billTotal * 15 /100; 
+const tipAmount = billTotal * 15 /100;  // o const tipAmount = billTotal * 0.15;
 
 // Print out the tipAmount
 
