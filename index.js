@@ -12,7 +12,7 @@ const s5 = "and";
 
 // Print out the concatenated string
 
-const tongueTwister = `${s1} ${s2} ${s3} ${s4} ${s5} ${s1} ${s2} ${s3} ${s4}`;
+const tongueTwister = `${s1} ${s2} ${s3} ${s4} ${s5} ${s3} ${s2} ${s1} ${s4}`;
 
 console.log (tongueTwister);
 
