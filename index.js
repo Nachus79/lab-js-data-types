@@ -82,11 +82,11 @@ const expression2 = a || b;
 console.log (expression2);
 
 const expression3 = !a && b;
-//true
+//false
 console.log (expression3);
 
 const expression4 = !(a && b);
-//false
+//true
 console.log (expression4);
 
 const expression5 = !a || !b;
@@ -94,7 +94,7 @@ const expression5 = !a || !b;
 console.log (expression5);
 
 const expression6 = !(a || b);
-//true
+//false
 console.log (expression6);
 
 const expression7 = a && a;
